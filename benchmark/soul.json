@@ -1,0 +1,505 @@
+[
+  {
+    "id": 1001,
+    "quality": 3,
+    "name": "元始天尊魂魄",
+    "res": "hp_1001",
+    "heroID": 1001,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1002,
+    "quality": 3,
+    "name": "盘古神魂魄",
+    "res": "hp_1002",
+    "heroID": 1002,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1003,
+    "quality": 3,
+    "name": "如来佛祖魂魄",
+    "res": "hp_1003",
+    "heroID": 1003,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1004,
+    "quality": 3,
+    "name": "通天教主魂魄",
+    "res": "hp_1004",
+    "heroID": 1004,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1005,
+    "quality": 3,
+    "name": "太上老君魂魄",
+    "res": "hp_1005",
+    "heroID": 1005,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1006,
+    "quality": 3,
+    "name": "女娲娘娘魂魄",
+    "res": "hp_1006",
+    "heroID": 1006,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1007,
+    "quality": 3,
+    "name": "蚩尤魂魄",
+    "res": "hp_1007",
+    "heroID": 1007,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1008,
+    "quality": 3,
+    "name": "万妖皇魂魄",
+    "res": "hp_1008",
+    "heroID": 1008,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1009,
+    "quality": 3,
+    "name": "观音菩萨魂魄",
+    "res": "hp_1009",
+    "heroID": 1009,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1010,
+    "quality": 3,
+    "name": "菩提祖师魂魄",
+    "res": "hp_1010",
+    "heroID": 1010,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1011,
+    "quality": 3,
+    "name": "玉皇大帝魂魄",
+    "res": "hp_1011",
+    "heroID": 1011,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1012,
+    "quality": 3,
+    "name": "镇元子魂魄",
+    "res": "hp_1012",
+    "heroID": 1012,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1013,
+    "quality": 3,
+    "name": "孔雀大明王魂魄",
+    "res": "hp_1013",
+    "heroID": 1013,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1014,
+    "quality": 3,
+    "name": "金翅大鹏雕魂魄",
+    "res": "hp_1014",
+    "heroID": 1014,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1015,
+    "quality": 3,
+    "name": "关圣帝君魂魄",
+    "res": "hp_1015",
+    "heroID": 1015,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1016,
+    "quality": 3,
+    "name": "牛魔王魂魄",
+    "res": "hp_1016",
+    "heroID": 1016,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1017,
+    "quality": 3,
+    "name": "金灵圣母魂魄",
+    "res": "hp_1017",
+    "heroID": 1017,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1018,
+    "quality": 3,
+    "name": "孙悟空魂魄",
+    "res": "hp_1018",
+    "heroID": 1018,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1019,
+    "quality": 3,
+    "name": "二郎神魂魄",
+    "res": "hp_1019",
+    "heroID": 1019,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1020,
+    "quality": 3,
+    "name": "白娘子魂魄",
+    "res": "hp_1020",
+    "heroID": 1020,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1021,
+    "quality": 3,
+    "name": "吕洞宾魂魄",
+    "res": "hp_1021",
+    "heroID": 1021,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1022,
+    "quality": 3,
+    "name": "何仙姑魂魄",
+    "res": "hp_1022",
+    "heroID": 1022,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1023,
+    "quality": 3,
+    "name": "黄眉妖王魂魄",
+    "res": "hp_1023",
+    "heroID": 1023,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1024,
+    "quality": 3,
+    "name": "赛太岁魂魄",
+    "res": "hp_1024",
+    "heroID": 1024,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1025,
+    "quality": 3,
+    "name": "姜子牙魂魄",
+    "res": "hp_1025",
+    "heroID": 1025,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1026,
+    "quality": 3,
+    "name": "唐僧魂魄",
+    "res": "hp_1026",
+    "heroID": 1026,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1027,
+    "quality": 3,
+    "name": "猪八戒魂魄",
+    "res": "hp_1027",
+    "heroID": 1027,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1028,
+    "quality": 3,
+    "name": "沙悟净魂魄",
+    "res": "hp_1028",
+    "heroID": 1028,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1029,
+    "quality": 3,
+    "name": "太白金星魂魄",
+    "res": "hp_1029",
+    "heroID": 1029,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1030,
+    "quality": 3,
+    "name": "王母娘娘魂魄",
+    "res": "hp_1030",
+    "heroID": 1030,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1031,
+    "quality": 3,
+    "name": "托塔天王魂魄",
+    "res": "hp_1031",
+    "heroID": 1031,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1032,
+    "quality": 3,
+    "name": "东海龙王魂魄",
+    "res": "hp_1032",
+    "heroID": 1032,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1033,
+    "quality": 3,
+    "name": "紫霞仙子魂魄",
+    "res": "hp_1033",
+    "heroID": 1033,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1034,
+    "quality": 3,
+    "name": "太乙真人魂魄",
+    "res": "hp_1034",
+    "heroID": 1034,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1035,
+    "quality": 3,
+    "name": "白骨精魂魄",
+    "res": "hp_1035",
+    "heroID": 1035,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1036,
+    "quality": 3,
+    "name": "苏妲己魂魄",
+    "res": "hp_1036",
+    "heroID": 1036,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1037,
+    "quality": 3,
+    "name": "白象精魂魄",
+    "res": "hp_1037",
+    "heroID": 1037,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1038,
+    "quality": 3,
+    "name": "青狮怪魂魄",
+    "res": "hp_1038",
+    "heroID": 1038,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1039,
+    "quality": 3,
+    "name": "哪吒魂魄",
+    "res": "hp_1039",
+    "heroID": 1039,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1040,
+    "quality": 3,
+    "name": "彩云仙子魂魄",
+    "res": "hp_1040",
+    "heroID": 1040,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1041,
+    "quality": 3,
+    "name": "梅山袁洪魂魄",
+    "res": "hp_1041",
+    "heroID": 1041,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1042,
+    "quality": 3,
+    "name": "铁扇公主魂魄",
+    "res": "hp_1042",
+    "heroID": 1042,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1043,
+    "quality": 3,
+    "name": "许仙魂魄",
+    "res": "hp_1043",
+    "heroID": 1043,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1044,
+    "quality": 3,
+    "name": "小青魂魄",
+    "res": "hp_1044",
+    "heroID": 1044,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1045,
+    "quality": 3,
+    "name": "法海魂魄",
+    "res": "hp_1045",
+    "heroID": 1045,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1046,
+    "quality": 3,
+    "name": "红孩儿魂魄",
+    "res": "hp_1046",
+    "heroID": 1046,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1047,
+    "quality": 3,
+    "name": "蝶精彩衣魂魄",
+    "res": "hp_1047",
+    "heroID": 1047,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1048,
+    "quality": 3,
+    "name": "雷震子魂魄",
+    "res": "hp_1048",
+    "heroID": 1048,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1049,
+    "quality": 3,
+    "name": "巨灵神魂魄",
+    "res": "hp_1049",
+    "heroID": 1049,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1050,
+    "quality": 3,
+    "name": "蝎子精魂魄",
+    "res": "hp_1050",
+    "heroID": 1050,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1051,
+    "quality": 3,
+    "name": "地涌夫人魂魄",
+    "res": "hp_1051",
+    "heroID": 1051,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1052,
+    "quality": 3,
+    "name": "黑熊精魂魄",
+    "res": "hp_1052",
+    "heroID": 1052,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1053,
+    "quality": 3,
+    "name": "千里眼魂魄",
+    "res": "hp_1053",
+    "heroID": 1053,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1054,
+    "quality": 3,
+    "name": "顺风耳魂魄",
+    "res": "hp_1054",
+    "heroID": 1054,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1055,
+    "quality": 3,
+    "name": "寿星公魂魄",
+    "res": "hp_1055",
+    "heroID": 1055,
+    "starLevel": 0
+  },
+
+  {
+    "id": 1056,
+    "quality": 3,
+    "name": "土地公魂魄",
+    "res": "hp_1056",
+    "heroID": 1056,
+    "starLevel": 0
+  }
+]
