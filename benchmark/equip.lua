@@ -37,7 +37,7 @@ local sp = parser.parse [[
 }
 ]]
 
-local file = io.open("soul.json", "r")
+local file = io.open("equip.json", "r")
 assert(file)
 local data = file:read("*a")
 file:close()
@@ -120,7 +120,7 @@ parser.dump(pack)
 
 local file = io.open("equip_b","w")
 assert(file)
-file:write(code)
+file:write(pack)
 file:close()
 
 print("\n")

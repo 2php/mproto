@@ -3,18 +3,33 @@ local core = require("sproto.core")
 local print_r = require("print_r")
 local json = require("cjson")
 
+-- local sp = parser.parse [[
+-- .soulpack {
+-- 	.soul {
+-- 	id 0 : integer 
+-- 	quality 1 : integer 
+-- 	name 2 : string 
+-- 	res 3 : string 
+-- 	heroID 4 : integer 
+-- 	starLevel 5 : integer 
+-- }
+--     pack 0 : *soul
+-- }
+-- ]]
+
 local sp = parser.parse [[
 .soulpack {
 	.soul {
-	id 0 : integer 
-	quality 1 : integer 
-	name 2 : string 
-	res 3 : string 
-	heroID 4 : integer 
-	starLevel 5 : integer 
+	starLevel 0 : integer
+	name 1 : string
+	id 2 : integer
+	res 3 : string
+	heroID 4 : integer
+	quality 5 : integer
 }
-    pack 0 : *soul
+	pack 0 : *soul
 }
+
 ]]
 
 local file = io.open("soul.json", "r")
@@ -60,11 +75,12 @@ parser.dump(pack)
 local file = io.open("soul_b","w")
 assert(file)
 file:write(pack)
-
 print("\n")
+
 local unpa = core.unpack(pack)
 parser.dump(unpa)
 print("\n")
+
 obj = core.decode(st, unpa)
 print(type(obj))
 print(obj.pack[1].name)
