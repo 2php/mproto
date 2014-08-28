@@ -7,9 +7,22 @@
 
 #define ENCODE_BUFFERSIZE 2050
 
-//#define ENCODE_BUFFERSIZE 2050
 #define ENCODE_MAXSIZE 0x1000000
 #define ENCODE_DEEPLEVEL 64
+
+#if LUA_VERSION_NUM < 502
+
+#define luaL_newlib(L,l)  luaL_register(L, "sproto", l)
+
+static void
+luaL_checkversion(lua_State *L){
+	if (lua_pushthread(L) == 0) {
+		luaL_error(L, "Must require in main thread");
+	}
+	lua_setfield(L, LUA_REGISTRYINDEX, "mainthread");
+}
+
+#endif
 
 static int
 lnewproto(lua_State *L) {
@@ -407,7 +420,7 @@ lprotocol(lua_State *L) {
 
 LUALIB_API int
 luaopen_sproto_core(lua_State *L) {
-	// luaL_checkversion(L);
+	luaL_checkversion(L);
 	luaL_Reg l[] = {
 		{ "newproto", lnewproto },
 		{ "deleteproto", ldeleteproto },
@@ -417,11 +430,7 @@ luaopen_sproto_core(lua_State *L) {
 		{ "protocol", lprotocol },
 		{ NULL, NULL },
 	};
-#if LUA_VERSION_NUM < 502
-	luaL_register(L, "sproto", l);
-#else
 	luaL_newlib(L,l);
-#endif
 	pushfunction_withbuffer(L, "encode", lencode);
 	pushfunction_withbuffer(L, "pack", lpack);
 	pushfunction_withbuffer(L, "unpack", lunpack);
