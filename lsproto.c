@@ -278,7 +278,7 @@ getbuffer(lua_State *L, int index, size_t *sz) {
 	if (t == LUA_TSTRING) {
 		buffer = lua_tolstring(L, index, sz);
 	} else {
-		if (t != LUA_TUSERDATA) {
+		if (t != LUA_TUSERDATA && t != LUA_TLIGHTUSERDATA) {
 			luaL_argerror(L, index, "Need a string or userdata");
 			return NULL;
 		}
@@ -407,14 +407,16 @@ lprotocol(lua_State *L) {
 	}
 	struct sproto_type * request = sproto_protoquery(sp, tag, SPROTO_REQUEST);
 	if (request == NULL) {
-		return 0;
+		lua_pushnil(L)
+	} else {
+		lua_pushlightuserdata(L, request);
 	}
-	lua_pushlightuserdata(L, request);
 	struct sproto_type * response = sproto_protoquery(sp, tag, SPROTO_RESPONSE);
 	if (response == NULL) {
-		return 2;
+		lua_pushnil(L)
+	} else {
+		lua_pushlightuserdata(L, response);
 	}
-	lua_pushlightuserdata(L, response);
 	return 3;
 }
 
