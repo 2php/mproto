@@ -407,13 +407,13 @@ lprotocol(lua_State *L) {
 	}
 	struct sproto_type * request = sproto_protoquery(sp, tag, SPROTO_REQUEST);
 	if (request == NULL) {
-		lua_pushnil(L)
+		lua_pushnil(L);
 	} else {
 		lua_pushlightuserdata(L, request);
 	}
 	struct sproto_type * response = sproto_protoquery(sp, tag, SPROTO_RESPONSE);
 	if (response == NULL) {
-		lua_pushnil(L)
+		lua_pushnil(L);
 	} else {
 		lua_pushlightuserdata(L, response);
 	}
