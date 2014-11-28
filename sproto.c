@@ -451,7 +451,7 @@ sproto_dump(struct sproto *s) {
 		printf("%s\n", t->name);
 		for (j=0;j<t->n;j++) {
 			char array[2] = { 0, 0 };
-			const char * typename = NULL;
+			const char * type_name = NULL;
 			struct field *f = &t->f[j];
 			if (f->type & SPROTO_TARRAY) {
 				array[0] = '*';
@@ -460,13 +460,13 @@ sproto_dump(struct sproto *s) {
 			}
 			int t = f->type & ~SPROTO_TARRAY;
 			if (t == SPROTO_TSTRUCT) {
-				typename = f->st->name;
+				type_name = f->st->name;
 			} else {
 				assert(t<SPROTO_TSTRUCT);
-				typename = buildin[t];
+				type_name = buildin[t];
 			}
 
-			printf("\t%s (%d) %s%s\n", f->name, f->tag, array, typename);
+			printf("\t%s (%d) %s%s\n", f->name, f->tag, array, type_name);
 		}
 	}
 	printf("=== %d protocol ===\n", s->protocol_n);
@@ -532,10 +532,10 @@ sproto_protoname(struct sproto *sp, int proto) {
 }
 
 struct sproto_type * 
-sproto_type(struct sproto *sp, const char * typename) {
+sproto_type(struct sproto *sp, const char * type_name) {
 	int i;
 	for (i=0;i<sp->type_n;i++) {
-		if (strcmp(typename, sp->type[i].name) == 0) {
+		if (strcmp(type_name, sp->type[i].name) == 0) {
 			return &sp->type[i];
 		}
 	}

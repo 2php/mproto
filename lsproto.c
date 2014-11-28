@@ -52,13 +52,13 @@ lquerytype(lua_State *L) {
 	if (sp == NULL) {
 		return luaL_argerror(L, 1, "Need a sproto object");
 	}
-	const char * typename = luaL_checkstring(L,2);
-	struct sproto_type *st = sproto_type(sp, typename);
+	const char * type_name = luaL_checkstring(L,2);
+	struct sproto_type *st = sproto_type(sp, type_name);
 	if (st) {
 		lua_pushlightuserdata(L, st);
 		return 1;
 	}
-	return luaL_error(L, "type %s not found", typename);
+	return luaL_error(L, "type %s not found", type_name);
 }
 
 struct encode_ud {
