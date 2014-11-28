@@ -1068,7 +1068,7 @@ write_ff(const uint8_t * src, uint8_t * des, int n) {
 	des[0] = 0xff;
 	des[1] = align8_n/8 - 1;
 	memcpy(des+2, src, n);
-	for (int i = 0; i < align8_n; ++i){
+	for (int i = 0; i < align8_n-n; ++i){
 		des[n+2+i] = 0;
 	}
 }
