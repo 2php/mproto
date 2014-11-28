@@ -929,7 +929,7 @@ decode_array(sproto_callback cb, void *ud, struct field *f, uint8_t * stream) {
 	}
 	case SPROTO_TBOOLEAN:
 		for (i=0;i<sz;i++) {
-			int value = stream[i];
+			uint64_t value = stream[i];
 			cb(ud, f->name, SPROTO_TBOOLEAN, i+1, NULL, &value, sizeof(value));
 		}
 		break;

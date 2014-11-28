@@ -232,12 +232,12 @@ decode(void *ud, const char *tagname, int type, int index, struct sproto_type *s
 	switch (type) {
 	case SPROTO_TINTEGER: {
 		// notice: in lua 5.2, 52bit integer support (not 64)
-		lua_Integer v = *(lua_Integer *)value;
+		lua_Integer v = *(uint64_t *)value;
 		lua_pushinteger(L, v);
 		break;
 	}
 	case SPROTO_TBOOLEAN: {
-		int v = *(lua_Integer*)value;
+		int v = *(uint64_t *)value;
 		lua_pushboolean(L,v);
 		break;
 	}
